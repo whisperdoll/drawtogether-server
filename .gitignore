@@ -1,0 +1,10 @@
+node_modules
+boards
+.cache
+*.d.ts
+*.map
+archive
+tsconfig.tsbuildinfo
+dist
+docs
+.vscode

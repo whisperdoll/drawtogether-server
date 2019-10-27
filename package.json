@@ -1,0 +1,23 @@
+{
+  "name": "drawtogether-server",
+  "version": "1.0.0",
+  "description": "serber",
+  "main": "./dist/electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "buildwatch": "npx tsc -w",
+    "start": "npx electron ./dist/electron.js"
+  },
+  "author": "alice mina carter",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "@types/ws": "^6.0.3",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "electron": "^7.0.0",
+    "ws": "^7.2.0"
+  }
+}
